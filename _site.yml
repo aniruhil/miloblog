@@ -1,0 +1,12 @@
+name: "miloblog"
+title: "Milo's Exciting Blog that Makes a Lot of $$$$$"
+description: |
+  Milo's Exciting Blog that Makes a Lot of $$$$$
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
